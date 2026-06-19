@@ -3,3 +3,4 @@ Plaintext
 __pycache__/
 *.pyc
 .DS_Store
+myenv/
