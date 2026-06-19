@@ -11,3 +11,8 @@ def test_version_rendering():
     client = app.test_client()
     response = client.get("/")
     assert b"Version" in response.data
+Python
+def test_broken_logic():
+    assert "production" == "broken"
+
+
